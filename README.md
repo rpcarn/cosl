@@ -8,4 +8,4 @@ This code does various things:
 * A slightly different strategy buys a token without a stop loss, waits for the price to get 3% in the money, set a 2% stop loss and take 1% profit, then any time it was over 2% in the money it would take profit and reset the stop loss. So it was a kind of scalping on an up trend and also moving the stop loss up each time it took profits.
 * Substitute a candle counting strategy. Specify a certain number of green or red candles identified by string patterns such as "ggg" (three green candles in a row) or "rrr" or "ggrgg" (2 green candles, 1 red, then 2 green). Then put in a buy order if the pattern was found.
 
-Then it would save the results to HTML files (simple table grid layout) so I could review what orders it made and whether there were profits taken.
+It saves the results to HTML files (simple table grid layout) to review the orders it made and whether profits taken and how much in USD.
